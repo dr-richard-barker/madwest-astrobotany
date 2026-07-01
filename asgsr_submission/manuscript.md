@@ -1,10 +1,10 @@
 # Botanical sounding rockets as an accessible space-biology platform: flowering and stress-gene responses in flown *Arabidopsis*, and an ectomycorrhiza × *Populus tremula* survival experiment
 
-**[Author One]¹\*, [Author Two]¹, [Mentor / PI]², and the MadWest High School Rocket Team¹**
+**[Student Lead Author]¹\*, [Co-Author Student Name(s)]¹, Richard Barker², and the MadWest High School Rocket Team¹**
 
-¹ MadWest High School, [City, State]
+¹ MadWest High School, [City, State]  ← fill before submission
 ² AstroBotany Laboratory, University of Wisconsin–Madison, Madison, WI, USA
-\* Presenting / corresponding author — *replace bracketed placeholders before submission.*
+\* Presenting / corresponding author — *replace bracketed student names before submission.*
 
 *Prepared for the American Society for Gravitational and Space Research (ASGSR). Independent educational project; not affiliated with or endorsed by NASA.*
 

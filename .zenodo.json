@@ -26,8 +26,17 @@
   ],
   "creators": [
     {
-      "name": "TODO, Author",
-      "affiliation": "TODO — affiliation"
+      "name": "[Student Last Name], [Student First Name]",
+      "affiliation": "MadWest High School"
+    },
+    {
+      "name": "[Student Last Name], [Student First Name]",
+      "affiliation": "MadWest High School"
+    },
+    {
+      "name": "Barker, Richard",
+      "affiliation": "AstroBotany Laboratory, University of Wisconsin–Madison",
+      "orcid": ""
     }
   ],
   "notes": "PLACEHOLDER metadata. Before publishing: (1) replace the creators block with real names (format 'Family, Given'), add 'orcid' where available; (2) set the GitHub 'related_identifiers' once the repo URL exists. Note: the ~1 GB of raw imagery under data/raw/ is git-ignored, so a GitHub-release→Zenodo hook will NOT capture it — upload the raw data package to Zenodo directly (see PUBLISHING.md)."

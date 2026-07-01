@@ -25,8 +25,9 @@ Science Data Repository.
 We believe this contribution speaks to ASGSR's mission on two fronts: it presents
 original (if preliminary) plant space-biology data, and it demonstrates an
 accessible, reproducible model for engaging students in gravitational and space
-research. The presenting author is [Author One], a [grade/role] at MadWest High
-School.
+research. The presenting author is [Student Lead — First Last], a student at MadWest High
+School. Faculty advisor: Richard Barker, AstroBotany Laboratory, UW–Madison
+(dr.richard.barker@gmail.com).
 
 We confirm that this work is original, not under consideration elsewhere, and
 contains no proprietary information that would preclude publication in the
@@ -35,8 +36,8 @@ conference proceedings.
 Thank you for your consideration.
 
 Sincerely,
-[Author One], on behalf of all authors
-[email] · [phone]
+[Student Lead — First Last], on behalf of all authors
+[student email] · [phone]
 
 ---
 *Template — replace all bracketed fields before sending. A cover letter may not

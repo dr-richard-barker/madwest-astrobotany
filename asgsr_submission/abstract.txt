@@ -7,12 +7,11 @@ and stress-gene responses in flown Arabidopsis, and an ectomycorrhiza x Populus
 tremula survival experiment from a high-school and AstroBotany partnership
 
 AUTHORS
-[Author One]^1 (Presenting Author), [Author Two]^1, [Mentor/PI]^2, MadWest High
-School Rocket Team^1
-1. MadWest High School, [City, State]
+[Student Lead Author]^1 (Presenting Author), [Co-Author Student Name(s)]^1,
+Richard Barker^2, MadWest High School Rocket Team^1
+1. MadWest High School, [City, State]  ← fill city/state before submission
 2. AstroBotany Laboratory, University of Wisconsin–Madison, Madison, WI
-(Replace bracketed names/affiliations before submission. Presenting author is
-indicated above; if omitted, ASGSR assumes the first author.)
+(Replace bracketed names before submission. Presenting author must be a student.)
 
 ABSTRACT (text only; 300-word limit)
 Spaceflight imposes a distinctive stress on plants: orbital transcriptomics

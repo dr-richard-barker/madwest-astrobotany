@@ -15,15 +15,29 @@ abstract: >-
   release to GitHub and Zenodo, formatted toward NASA OSDR conventions.
 type: dataset
 license: CC-BY-4.0
-# TODO(authors): replace the placeholder below with the real creators.
-# Add one - family-names/given-names block per author. ORCID is optional but
-# recommended. These names flow into the Zenodo deposit metadata.
+# TODO(authors): replace [Student Last Name] / [Student First Name] with real
+# names. Each block below flows into the Zenodo deposit metadata.
+# ORCID is optional but recommended.
 authors:
-  - name: "TODO — Add author name(s) before publishing"
-    # family-names: "Surname"
-    # given-names: "First"
+  # ---------------------------------------------------------------
+  # STUDENT AUTHORS — replace the placeholders below before publishing.
+  # Add one block per student who contributed to the work.
+  # ---------------------------------------------------------------
+  - family-names: "[Student Last Name]"
+    given-names: "[Student First Name]"
+    affiliation: "MadWest High School"
     # orcid: "https://orcid.org/0000-0000-0000-0000"
-    # affiliation: "Institution"
+  - family-names: "[Student Last Name]"
+    given-names: "[Student First Name]"
+    affiliation: "MadWest High School"
+  # ---------------------------------------------------------------
+  # FACULTY / MENTOR ADVISOR
+  # ---------------------------------------------------------------
+  - family-names: "Barker"
+    given-names: "Richard"
+    affiliation: "AstroBotany Laboratory, University of Wisconsin–Madison"
+    email: "dr.richard.barker@gmail.com"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
 keywords:
   - space biology
   - astrobotany

@@ -6,10 +6,10 @@ presenting author is typically a student.
 
 | # | Name | Role | Affiliation | Email | Presenting? |
 |---|------|------|-------------|-------|-------------|
-| 1 | [Author One] | Student | MadWest High School, [City, State] | [email] | ✅ yes |
-| 2 | [Author Two] | Student | MadWest High School, [City, State] | | |
-| 3 | [Mentor / Teacher] | Mentor | MadWest High School | | |
-| 4 | [PI / Lab mentor] | Advisor | AstroBotany Lab, UW–Madison | | |
+| 1 | [Student Lead — First Last] | Student | MadWest High School, [City, State] | [student email] | ✅ yes |
+| 2 | [Co-Author Student — First Last] | Student | MadWest High School, [City, State] | | |
+| 3 | [Classroom Teacher / Mentor — First Last] | Mentor | MadWest High School | | |
+| 4 | Richard Barker | Advisor / PI | AstroBotany Laboratory, UW–Madison | dr.richard.barker@gmail.com | |
 | … | MadWest High School Rocket Team | Group author | MadWest High School | | |
 
 ## Notes
