@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# Raw research imagery & large source files (~1 GB) — NOT version-controlled.
+# These are documented in data/README.md and are uploaded to Zenodo DIRECTLY
+# (a GitHub-release -> Zenodo hook will not include git-ignored files).
+# Derived, web-facing results (assets/charts, assets/timelapse) ARE committed.
+# ---------------------------------------------------------------------------
+data/raw/
+
+# Bulky binary instrument exports kept out of git even if elsewhere
+*.eds
+*.edt
+
+# Python
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this dataset or software, please cite it as below."
+title: "MadWest Rocketry × NASA OSDR — Botanical Sounding Rockets: TREES timelapse growth & Reggies' Veggies gene-expression dataset"
+abstract: >-
+  A high-school sounding-rocket space-biology program (2018, Cesaroni K1620
+  motor) across three launches, with an open Python analysis pipeline. Launch 1:
+  Arabidopsis test — flown seedlings reportedly flowered earlier and co-flown
+  ectomycorrhizal spores stayed viable after flight. Launch 2 ("Reggies'
+  Veggies"): Arabidopsis qPCR of stress genes (MPK3, TCH3, CBP60g; UBQ10
+  reference) on flown vs. launch-site and lab controls. Launch 3 ("TREES", a
+  codename, not a species): Populus tremula seedlings ± ectomycorrhizal (ECM)
+  inoculation, flown vs. ground, imaged as a timelapse to test whether the
+  fungal symbiosis aids flight survival — green-canopy image analysis instead
+  showed the mycorrhizal seedlings peaking then dying back. Prepared for open
+  release to GitHub and Zenodo, formatted toward NASA OSDR conventions.
+type: dataset
+license: CC-BY-4.0
+# TODO(authors): replace the placeholder below with the real creators.
+# Add one - family-names/given-names block per author. ORCID is optional but
+# recommended. These names flow into the Zenodo deposit metadata.
+authors:
+  - name: "TODO — Add author name(s) before publishing"
+    # family-names: "Surname"
+    # given-names: "First"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "Institution"
+keywords:
+  - space biology
+  - astrobotany
+  - sounding rocket
+  - plant growth
+  - timelapse image analysis
+  - qPCR
+  - gene expression
+  - gravitropism
+  - Arabidopsis
+  - Populus tremula
+  - ectomycorrhiza
+  - plant-fungal symbiosis
+  - NASA OSDR
+  - open science
+  - STEM education
+  - ASGSR
+version: "0.1.0"
+date-released: "2026-06-30"
+# url / repository-code: add your GitHub URL once the repo is pushed.
+# doi: add the Zenodo DOI here once minted (Zenodo can also inject it on release).

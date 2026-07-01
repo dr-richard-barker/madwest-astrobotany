@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSDR Training — Open Space-Biology Data | MadWest Rocketry</title>
+  <meta name="description" content="Plain-language training on NASA OSDR open-science standards: FAIR data, metadata, and how to design a botanical rocket experiment the repository can accept." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="logo">🌱</span>
+        <span>MadWest Rocketry<small>botany meets the upper atmosphere</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="build-guide.html">Build Guide</a></li>
+        <li><a href="osdr-training.html">OSDR Training</a></li>
+        <li><a href="data-submission.html">Data Submission</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="lead-page-head">
+    <div class="wrap">
+      <span class="eyebrow">OSDR Training</span>
+      <h1>Get your experiment OSDR-ready</h1>
+      <p>NASA's Open Science Data Repository accepts data from anyone — if it meets open-science standards.
+        This page translates those standards into plain language for rocket builders.</p>
+    </div>
+  </section>
+
+  <!-- WHAT IS OSDR -->
+  <section style="padding-top:18px">
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div>
+          <h2 class="section-title">What is OSDR?</h2>
+          <p class="section-sub">The <a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">Open Science
+            Data Repository</a> (formerly GeneLab) is NASA's home for spaceflight and space-relevant biology data.
+            It stores experiments — from omics to phenotype assays — with rich metadata so other researchers can
+            find, understand, and reuse them.</p>
+          <p class="section-sub">For a MadWest flight, OSDR is the destination: it's where your germination counts
+            and flight logs stop being a class result and become part of the open scientific record.</p>
+        </div>
+        <div class="card">
+          <h3>The FAIR principles</h3>
+          <p style="margin-bottom:14px">OSDR is built on FAIR data. Design to these four words and you're most of the way there:</p>
+          <div class="table-wrap">
+            <table>
+              <tbody>
+                <tr><td><strong>F</strong>indable</td><td>Rich metadata + a persistent identifier</td></tr>
+                <tr><td><strong>A</strong>ccessible</td><td>Openly retrievable in standard formats</td></tr>
+                <tr><td><strong>I</strong>nteroperable</td><td>Standard vocabulary, units &amp; file types</td></tr>
+                <tr><td><strong>R</strong>eusable</td><td>Documented methods so others can build on it</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINING MODULES -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Training modules</h2>
+      <p class="section-sub">Work through these in order. Each one maps a part of your flight to what OSDR needs.</p>
+      <div class="steps">
+
+        <div class="step">
+          <h3>Module 1 — Think in metadata</h3>
+          <p>Data without context is useless to a repository. "84% germination" means nothing; "84% germination of
+            <em>Arabidopsis thaliana</em> Col-0, 7 days post-flight, 22 °C, vs. 91% ground control" is reusable science.</p>
+          <ul>
+            <li>For every number, capture <strong>what, which organism, when, under what conditions</strong>.</li>
+            <li>Record units explicitly and consistently.</li>
+            <li>Keep a sample-to-sensor map so biology links to the flight log.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Module 2 — Describe the assay</h3>
+          <p>OSDR organizes studies around <em>assays</em> — the measurements you ran. Know which type yours is.</p>
+          <div class="table-wrap" style="margin-top:8px">
+            <table>
+              <thead><tr><th>Your measurement</th><th>Assay type</th></tr></thead>
+              <tbody>
+                <tr><td>Did seeds sprout?</td><td>Phenotype — germination</td></tr>
+                <tr><td>Seedling height/mass over days</td><td>Phenotype — growth time-series</td></tr>
+                <tr><td>Gene activity (if you sample)</td><td>Omics — transcriptomics</td></tr>
+                <tr><td>Flight environment</td><td>Environmental / mission metadata</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="step">
+          <h3>Module 3 — Use standard vocabulary</h3>
+          <p>Interoperability means calling things by names a computer and another scientist both recognize.</p>
+          <ul>
+            <li>Use full scientific names and standard strain identifiers for your organism.</li>
+            <li>Prefer controlled terms/ontologies where OSDR asks for them rather than free text.</li>
+            <li>Use SI units and ISO date-times throughout.</li>
+          </ul>
+          <div class="note">When in doubt, mirror how an existing OSDR study describes a similar plant experiment —
+            browse the repository for examples. <span class="todo">link a model study here</span></div>
+        </div>
+
+        <div class="step">
+          <h3>Module 4 — Build the control story</h3>
+          <p>OSDR data is only meaningful against a baseline. Your ground control isn't optional paperwork — it's
+            half the dataset.</p>
+          <ul>
+            <li>Document that the control was handled identically except for flight.</li>
+            <li>Report flown and control results side by side with sample counts.</li>
+            <li>Note anything that differed (timing, temperature excursions) honestly.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Module 5 — Package for submission</h3>
+          <p>Final module: assemble everything into the structure OSDR expects, then hand off to the submission workflow.</p>
+          <ul>
+            <li>Tabular results as clean CSVs; one row = one observation.</li>
+            <li>A metadata sheet describing study, organism, factors, and assays.</li>
+            <li>Methods write-up detailed enough to repeat.</li>
+          </ul>
+          <div class="note">Continue to the <a href="data-submission.html">Data Submission</a> page for the actual
+            file structure and step-by-step upload path.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">OSDR-readiness checklist</h2>
+      <p class="section-sub">If you can tick all of these, your flight is ready for the submission workflow.</p>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>✅ Experiment</h3>
+          <ul style="color:var(--ink-soft);margin:0;padding-left:18px">
+            <li>Clear hypothesis &amp; organism</li>
+            <li>Identical ground control</li>
+            <li>Adequate sample counts</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>✅ Data &amp; metadata</h3>
+          <ul style="color:var(--ink-soft);margin:0;padding-left:18px">
+            <li>Units &amp; timestamps on everything</li>
+            <li>Flight log linked to biology samples</li>
+            <li>Methods documented for reuse</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Your data is ready. Let's submit it.</h2>
+        <p>The submission workflow walks you from organized files to a live entry in NASA's repository.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="data-submission.html">Go to Data Submission →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <h4>MadWest Rocketry</h4>
+          <p style="margin:0;color:var(--ink-faint);max-width:40ch">
+            A one-stop hub for building botanical sounding rockets and contributing open space-biology
+            data to NASA OSDR.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="build-guide.html">Build Guide</a></li>
+            <li><a href="osdr-training.html">OSDR Training</a></li>
+            <li><a href="data-submission.html">Data Submission</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>NASA Open Science</h4>
+          <ul>
+            <li><a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR home ↗</a></li>
+            <li><a href="https://www.nasa.gov/osdr/" target="_blank" rel="noopener">About OSDR ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> MadWest Rocketry. Educational project.</span>
+        <span>Not affiliated with or endorsed by NASA.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

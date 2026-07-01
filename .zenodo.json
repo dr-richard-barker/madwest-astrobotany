@@ -1,0 +1,34 @@
+{
+  "title": "MadWest Rocketry × NASA OSDR — Botanical Sounding Rockets: TREES timelapse growth & Reggies' Veggies gene-expression dataset",
+  "description": "<p>A one-stop educational hub and research compendium for a high-school sounding-rocket space-biology program (2018, Cesaroni K1620 motor) across three launches, with an open Python analysis pipeline. <strong>Launch 1</strong>: <em>Arabidopsis</em> test &mdash; flown seedlings reportedly flowered earlier, and co-flown ectomycorrhizal spores stayed viable after flight. <strong>Launch 2 ('Reggies' Veggies')</strong>: <em>Arabidopsis</em> qPCR of stress genes (MPK3, TCH3, CBP60g; UBQ10 reference) on flown vs. launch-site and lab controls. <strong>Launch 3 ('TREES', a codename &mdash; not a species)</strong>: <em>Populus tremula</em> seedlings &plusmn; ectomycorrhizal (ECM) inoculation, flown vs. ground, imaged as a timelapse to test whether the fungal symbiosis aids flight survival; green-canopy image analysis instead showed the mycorrhizal seedlings peaking then dying back. Data formatted toward NASA OSDR conventions. Independent educational project; not affiliated with or endorsed by NASA.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "0.1.0",
+  "language": "eng",
+  "keywords": [
+    "space biology",
+    "astrobotany",
+    "sounding rocket",
+    "plant growth",
+    "timelapse image analysis",
+    "qPCR",
+    "gene expression",
+    "gravitropism",
+    "Arabidopsis",
+    "Populus tremula",
+    "ectomycorrhiza",
+    "plant-fungal symbiosis",
+    "NASA OSDR",
+    "open science",
+    "STEM education",
+    "ASGSR"
+  ],
+  "creators": [
+    {
+      "name": "TODO, Author",
+      "affiliation": "TODO — affiliation"
+    }
+  ],
+  "notes": "PLACEHOLDER metadata. Before publishing: (1) replace the creators block with real names (format 'Family, Given'), add 'orcid' where available; (2) set the GitHub 'related_identifiers' once the repo URL exists. Note: the ~1 GB of raw imagery under data/raw/ is git-ignored, so a GitHub-release→Zenodo hook will NOT capture it — upload the raw data package to Zenodo directly (see PUBLISHING.md)."
+}

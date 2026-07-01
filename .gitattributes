@@ -1,0 +1,19 @@
+# Normalize line endings
+* text=auto eol=lf
+*.html text
+*.css text
+*.js text
+*.py text
+*.md text
+
+# Treat these as binary (no EOL munging, no diff noise)
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.xlsx binary
+*.docx binary
+*.pf2 binary
+
+# GitHub Linguist: keep generated assets from skewing the language stats
+assets/** linguist-generated=true
+data/processed/** linguist-documentation=true

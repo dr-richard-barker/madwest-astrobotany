@@ -1,0 +1,13 @@
+Field,Value
+Study Identifier,MADWEST-2018
+Study Title,MadWest Rocketry botanical sounding-rocket program: Arabidopsis spaceflight stress-gene expression and a Populus tremula x ectomycorrhiza survival experiment
+Study Description,"A high-school sounding-rocket program (2018, motor K1620) across three launches. Launch 1 (Arabidopsis test): flown seedlings showed earlier flowering, and co-flown ectomycorrhizal spores remained viable after flight. Launch 2 (Arabidopsis, repeat): flown vs. launch-site and lab controls, assayed by qPCR for stress-response genes (MPK3, TCH3, CBP60g) normalized to UBQ10 -- the 'Reggies' Veggies' molecular arm. Launch 3 ('TREES', codename): Populus tremula seedlings +/- ectomycorrhizal (ECM) inoculation, flown vs. ground, imaged as a timelapse to test whether the fungal symbiosis aids flight survival; green-canopy image analysis instead showed the mycorrhizal groups peaking then declining (die-back)."
+Study Organism,Arabidopsis thaliana (launches 1-2); Populus tremula (launch 3)
+Study Factor Name,Spaceflight; Ectomycorrhizal inoculation
+Study Factor Type,experimental factor; experimental factor
+Study Assay Measurement Type,growth phenotype (timelapse image analysis); transcription profiling (qPCR)
+Study Protocol Name,timelapse imaging; green-canopy image analysis; RNA extraction; qPCR; delta-delta-Ct analysis
+Study Person (Role),TODO - add PI / contributors (see CITATION.cff)
+Study Public Release Date,TODO
+Comment[Caveats],"Classroom-scale. TREES (Populus) n=2-5/group with UNEVEN imaging windows (+ECM tracked ~9 d, -ECM ~6 d) -- the die-back is clearest in the longer-tracked +ECM plants. qPCR n=4/group, trends only. ECM fungal species not recorded in the source. See DEVLOG.md."
+Comment[Affiliation with NASA],None - independent educational project; not affiliated with or endorsed by NASA.

@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find ~ -maxdepth 4 -iname '*madwest*' -o -iname '*rocket*' 2>/dev/null | grep -iv node_modules | head -40; echo \"--- downloads/desktop ---\"; ls ~/Downloads 2>/dev/null | grep -iE 'rocket|madwest|osdr|index|html' | head; ls ~/Desktop 2>/dev/null | grep -iE 'rocket|madwest|osdr|index|html' | head)",
+      "Bash(wc -c \"DRB ROB3.0 Early Career Investigation application_v2_Jan_2025.docx.html\")",
+      "Bash(python -c ' *)",
+      "Bash(time python analyze.py)",
+      "Bash(mkdir -p data/raw data/processed/trees_growth)",
+      "Bash(mv data/trees data/raw/trees_timelapse)",
+      "Bash(mv \"data/raw/reggies_veggies/media_prep/Media!\" \"data/raw/reggies_veggies/media_prep/protocols\")",
+      "Bash(rm -f analysis/growth_data.csv)",
+      "Bash(python -)",
+      "Bash(python analyze.py charts)",
+      "Bash(python osdr_export.py)",
+      "Bash(python -m pip install --quiet pypdfium2)",
+      "Bash(python -c \"import pypdfium2 as p; print\\('pypdfium2', p.V_PYPDFIUM2\\)\")",
+      "Bash(python -c \"import pypdfium2 as p; print\\('pypdfium2 import OK'\\); pdf=p.PdfDocument\\(r'C:\\\\Users\\\\drric\\\\Downloads\\\\MadWest_Gravitropism_RootAssay_summer_2016.pdf'\\); print\\('grav pages:', len\\(pdf\\)\\); pdf2=p.PdfDocument\\(r'C:\\\\Users\\\\drric\\\\Downloads\\\\MadWest DR5_Venus.pdf'\\); print\\('venus pages:', len\\(pdf2\\)\\)\")",
+      "WebSearch",
+      "WebFetch(domain:asgsr.org)",
+      "Bash(mkdir -p asgsr_submission/figures)",
+      "Bash(cp assets/charts/final_canopy.png        asgsr_submission/figures/fig1_canopy_growth.png)",
+      "Bash(cp assets/charts/growth_curves.png        asgsr_submission/figures/fig1b_canopy_curves.png)",
+      "Bash(cp assets/charts/qpcr_fold_change.png     asgsr_submission/figures/fig2_qpcr_foldchange.png)",
+      "Bash(cp assets/slides/gravitropism/slide_03.jpg asgsr_submission/figures/fig3a_roottrace_angle.jpg)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cp assets/charts/final_canopy.png   asgsr_submission/figures/fig1_canopy_dieback.png)",
+      "Bash(rm -f asgsr_submission/figures/fig1_canopy_growth.png)",
+      "Bash(cp assets/charts/growth_curves.png  asgsr_submission/figures/fig1b_canopy_curves.png)",
+      "Bash(cp assets/charts/relative_growth.png asgsr_submission/figures/fig1c_relative_growth.png)",
+      "Bash(rm -f asgsr_submission/figures/fig1c_before_after.jpg)",
+      "Bash(awk '{print $1}')"
+    ]
+  }
+}

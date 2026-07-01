@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Guide — Botanical Sounding Rocket | MadWest Rocketry</title>
+  <meta name="description" content="Step-by-step build guide for a botanical sounding rocket: airframe, recovery, and a living-payload bay engineered to keep seeds alive and your OSDR data clean." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="logo">🌱</span>
+        <span>MadWest Rocketry<small>botany meets the upper atmosphere</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="build-guide.html">Build Guide</a></li>
+        <li><a href="osdr-training.html">OSDR Training</a></li>
+        <li><a href="data-submission.html">Data Submission</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="lead-page-head">
+    <div class="wrap">
+      <span class="eyebrow">Build Guide</span>
+      <h1>Build a botanical sounding rocket</h1>
+      <p>From an empty workbench to a flight-ready rocket carrying a living payload — engineered so the
+        biology survives the ride and the data is clean enough for NASA OSDR.</p>
+    </div>
+  </section>
+
+  <!-- SAFETY FIRST -->
+  <section style="padding-top:18px">
+    <div class="wrap">
+      <div class="note safety">
+        <strong>⚠️ Safety &amp; legality first.</strong> High-power rocketry involves energetic materials.
+        Build and fly under the rules of a recognized body such as the
+        <a href="https://www.nar.org/" target="_blank" rel="noopener">National Association of Rocketry (NAR)</a>
+        or <a href="https://www.tripoli.org/" target="_blank" rel="noopener">Tripoli</a>, follow your national
+        and local regulations (in the U.S., FAA notification/waivers may be required), and always launch at a
+        sanctioned range with certified mentors. This guide is educational and is <em>not</em> a substitute for
+        formal certification and on-site supervision.
+        <span class="todo">edit for your org</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU'RE BUILDING -->
+  <section style="padding-top:8px">
+    <div class="wrap">
+      <h2 class="section-title">What you're building</h2>
+      <p class="section-sub">A recoverable single-stage rocket with a dedicated <strong>biology payload bay</strong>.
+        The novelty isn't the rocket — it's that the payload is alive, and every subsystem exists to keep it
+        that way and to record what it experienced.</p>
+      <div class="grid grid-3">
+        <div class="card"><span class="ico">🧩</span><h3>Airframe</h3><p>Body tubes, nose cone, fins, and motor mount — the structure that gets your payload up and back down intact.</p></div>
+        <div class="card"><span class="ico">🌱</span><h3>Payload bay</h3><p>A sealed, instrumented capsule holding seeds or seedlings plus a sensor stack to log what they endured.</p></div>
+        <div class="card"><span class="ico">🪂</span><h3>Recovery</h3><p>Parachute / dual-deploy so the living payload lands soft enough to study afterward.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE STEPS -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">The build, step by step</h2>
+      <p class="section-sub">Work top to bottom. Don't skip the experiment-design step — a flight with no
+        control group produces a flight, not science.</p>
+
+      <div class="steps">
+
+        <div class="step">
+          <h3>Design the experiment first</h3>
+          <p>Before any glue, decide what biological question this flight answers. This determines your payload,
+            your sensors, and what OSDR will eventually accept.</p>
+          <ul>
+            <li><strong>Hypothesis:</strong> e.g. "High-G launch + brief altitude exposure reduces germination rate in <em>Arabidopsis</em> vs. ground control." <span class="todo">your hypothesis</span></li>
+            <li><strong>Organism:</strong> choose a fast, well-characterized species (Arabidopsis, radish, lettuce) so results are comparable.</li>
+            <li><strong>Controls:</strong> an identical ground-control payload that never flies is mandatory.</li>
+            <li><strong>Variables you can log:</strong> peak acceleration (G), max altitude, temperature, flight duration.</li>
+          </ul>
+          <div class="note">Tip: read the <a href="osdr-training.html">OSDR Training</a> page <em>now</em> — designing to the
+            standard is far easier than retrofitting your data later.</div>
+        </div>
+
+        <div class="step">
+          <h3>Gather materials &amp; tools</h3>
+          <p>Source your kit before building. Quantities below are a starting checklist — adjust to your design.</p>
+          <div class="table-wrap" style="margin-top:8px">
+            <table>
+              <thead><tr><th>Item</th><th>Purpose</th></tr></thead>
+              <tbody>
+                <tr><td>Body tube + coupler set</td><td>Airframe sections (motor, payload, recovery)</td></tr>
+                <tr><td>Nose cone</td><td>Aerodynamic tip; sometimes houses electronics</td></tr>
+                <tr><td>Fin stock + centering rings</td><td>Stability &amp; motor mounting</td></tr>
+                <tr><td>Motor &amp; igniter (class per cert)</td><td>Propulsion — match to mass &amp; altitude target</td></tr>
+                <tr><td>Parachute + shock cord</td><td>Recovery</td></tr>
+                <tr><td>Flight computer / altimeter</td><td>Altitude, acceleration, deployment</td></tr>
+                <tr><td>Payload capsule + seeds/seedlings</td><td>The living experiment</td></tr>
+                <tr><td>Epoxy, sandpaper, hobby knife</td><td>Assembly</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="note warn"><strong>Sizing matters:</strong> the live payload + sensors add mass. Run your
+            numbers in a simulator (OpenRocket / RockSim) so the motor and recovery are sized for the loaded rocket,
+            not an empty one.</div>
+        </div>
+
+        <div class="step">
+          <h3>Simulate &amp; finalize the design</h3>
+          <p>Model the loaded rocket in <a href="https://openrocket.info/" target="_blank" rel="noopener">OpenRocket</a>
+            (free) before cutting anything.</p>
+          <ul>
+            <li>Confirm <strong>stability margin</strong> of ~1–2 calibers with the payload installed.</li>
+            <li>Check predicted apogee, max velocity, and <strong>peak acceleration</strong> — that G figure is a key
+              biological variable, so know it before you fly.</li>
+            <li>Verify recovery descent rate is gentle enough that the payload survives landing.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Build the airframe</h3>
+          <p>Assemble the structure. Take your time on alignment — a crooked fin is a failed flight.</p>
+          <ul>
+            <li>Mount the motor tube with centering rings; cure fully.</li>
+            <li>Attach fins square and symmetric (a fin-alignment jig helps); fillet with epoxy.</li>
+            <li>Install the recovery harness anchor and prep the nose-cone/coupler joints.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Build the botanical payload bay</h3>
+          <p>This is the heart of a MadWest rocket. The capsule must protect the organism <em>and</em> record its
+            environment.</p>
+          <ul>
+            <li><strong>Containment:</strong> secure seeds in a medium (agar plate, moist substrate, or sealed
+              seed-pack) that won't shift under launch loads.</li>
+            <li><strong>Cushioning:</strong> foam or a sprung mount to dampen vibration and landing shock.</li>
+            <li><strong>Sensors:</strong> log acceleration, temperature, and pressure for the whole flight — these
+              become your environmental metadata.</li>
+            <li><strong>Sealing &amp; sterility:</strong> keep the bay clean so post-flight contamination doesn't
+              confound your biology results.</li>
+          </ul>
+          <div class="note"><strong>Keep a twin.</strong> Build the ground-control payload identically and prepare it
+            on the same timeline — same seeds, same medium, same handling, minus the flight.</div>
+        </div>
+
+        <div class="step">
+          <h3>Integrate electronics &amp; recovery</h3>
+          <p>Wire and test the avionics on the bench before they ever go in the rocket.</p>
+          <ul>
+            <li>Confirm the altimeter arms, logs, and triggers deployment in a ground test.</li>
+            <li>Pack the parachute; verify the deployment charge or mechanism (dual-deploy if your altitude needs it).</li>
+            <li>Label and time-sync every data logger so flight data and biology samples can be matched later.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Pre-flight checks &amp; launch</h3>
+          <p>At a sanctioned range, under mentor supervision, run the checklist.</p>
+          <ul>
+            <li>Final mass &amp; stability check with the live payload installed.</li>
+            <li>Load seeds/seedlings as late as possible; record the exact load time.</li>
+            <li>Arm avionics, get range-safety sign-off, and launch.</li>
+            <li>Note launch time, conditions, and motor used — all of it is metadata.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Recover, measure &amp; preserve</h3>
+          <p>The flight is the easy part — the science happens now.</p>
+          <ul>
+            <li>Recover quickly; record landing time and any damage.</li>
+            <li>Download flight logs (altitude, G, temperature) immediately.</li>
+            <li>Begin your biology assay on flown and control samples together: germination counts, growth
+              measurements over days, optional gene-expression sampling.</li>
+            <li>Photograph and log everything with consistent units and timestamps.</li>
+          </ul>
+        </div>
+
+        <div class="step">
+          <h3>Package &amp; submit to OSDR</h3>
+          <p>Turn the raw results into an openly shareable dataset.</p>
+          <ul>
+            <li>Organize flight metadata + biology results to the OSDR structure.</li>
+            <li>Follow the <a href="osdr-training.html">OSDR Training</a> checklist, then the
+              <a href="data-submission.html">Data Submission</a> workflow.</li>
+            <li>Document your methods so another club could repeat your flight.</li>
+          </ul>
+          <div class="note">That final submission is what makes this more than a hobby launch — your flight becomes
+            reusable science.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Built it? Now make it count.</h2>
+        <p>Your flight produced numbers. The OSDR training turns those numbers into data NASA's repository can accept.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="osdr-training.html">Go to OSDR Training →</a>
+          <a class="btn btn-ghost" href="data-submission.html">See the submission workflow</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <h4>MadWest Rocketry</h4>
+          <p style="margin:0;color:var(--ink-faint);max-width:40ch">
+            A one-stop hub for building botanical sounding rockets and contributing open space-biology
+            data to NASA OSDR.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="build-guide.html">Build Guide</a></li>
+            <li><a href="osdr-training.html">OSDR Training</a></li>
+            <li><a href="data-submission.html">Data Submission</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>NASA Open Science</h4>
+          <ul>
+            <li><a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR home ↗</a></li>
+            <li><a href="https://www.nasa.gov/osdr/" target="_blank" rel="noopener">About OSDR ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> MadWest Rocketry. Educational project.</span>
+        <span>Not affiliated with or endorsed by NASA.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

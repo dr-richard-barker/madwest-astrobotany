@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Submission — Flight to Repository | MadWest Rocketry</title>
+  <meta name="description" content="The experiment-to-repository workflow: organize flight and biology data, structure metadata, and submit your botanical rocket dataset to NASA OSDR." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="logo">🌱</span>
+        <span>MadWest Rocketry<small>botany meets the upper atmosphere</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="build-guide.html">Build Guide</a></li>
+        <li><a href="osdr-training.html">OSDR Training</a></li>
+        <li><a href="data-submission.html">Data Submission</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="lead-page-head">
+    <div class="wrap">
+      <span class="eyebrow">Data Submission</span>
+      <h1>From flight log to open dataset</h1>
+      <p>You flew it, you measured it, you trained on the standards. This is the workflow that gets your dataset
+        into NASA OSDR — described well enough that someone you'll never meet can reuse it.</p>
+    </div>
+  </section>
+
+  <!-- PIPELINE -->
+  <section style="padding-top:18px">
+    <div class="wrap">
+      <div class="pipeline">
+        <div class="pipe-node"><span class="big">🗂️</span><h4>Organize</h4><p>Clean files &amp; folders</p></div>
+        <div class="pipe-node"><span class="big">🏷️</span><h4>Describe</h4><p>Metadata &amp; methods</p></div>
+        <div class="pipe-node"><span class="big">✅</span><h4>Validate</h4><p>Check against standards</p></div>
+        <div class="pipe-node"><span class="big">📤</span><h4>Submit</h4><p>Upload to OSDR</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FILE STRUCTURE -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Step 1 — Organize your files</h2>
+      <p class="section-sub">A clean, predictable folder layout makes everything downstream easier. A suggested
+        structure for one flight (one "study"):</p>
+      <div class="card">
+        <pre style="margin:0;overflow-x:auto;color:var(--ink-soft);font-size:.92rem;line-height:1.7"><code>madwest-flight-2026-XX/
+├── README.md                 # what this flight was, in plain language
+├── metadata/
+│   ├── study.csv             # study-level: title, organism, factors
+│   ├── assays.csv            # which measurements were run
+│   └── samples.csv           # one row per seed/sample, flown vs. control
+├── flight/
+│   ├── altimeter-log.csv     # altitude, time
+│   ├── accel-log.csv         # G-load, time
+│   └── conditions.csv        # temp, pressure, launch metadata
+├── biology/
+│   ├── germination.csv       # counts, flown vs. control
+│   ├── growth-timeseries.csv # measurements over days
+│   └── photos/               # dated, labeled images
+└── methods/
+    └── protocol.md           # detailed enough to repeat the flight</code></pre>
+      </div>
+      <div class="note"><strong>One row, one observation.</strong> Keep CSVs tidy: each row is a single measurement,
+        each column a single variable, with a header row of clear names and units.</div>
+    </div>
+  </section>
+
+  <!-- METADATA -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Step 2 — Describe it</h2>
+      <p class="section-sub">Metadata is what turns files into a findable dataset. At minimum, capture:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Field</th><th>Example</th></tr></thead>
+          <tbody>
+            <tr><td>Study title</td><td>Effect of high-G launch on <em>Arabidopsis</em> germination</td></tr>
+            <tr><td>Organism</td><td><em>Arabidopsis thaliana</em>, Col-0</td></tr>
+            <tr><td>Factor(s) studied</td><td>Spaceflight/launch loads vs. ground control</td></tr>
+            <tr><td>Assay type(s)</td><td>Phenotype — germination &amp; growth</td></tr>
+            <tr><td>Flight parameters</td><td>Peak G, max altitude, duration, motor class</td></tr>
+            <tr><td>Sample counts</td><td>n flown / n control</td></tr>
+            <tr><td>Date &amp; location</td><td>ISO date; launch site <span class="todo">your site</span></td></tr>
+            <tr><td>Contributors</td><td>Names / club / institution</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">Not sure how to phrase a field? Revisit <a href="osdr-training.html">OSDR Training</a> Module 1–3,
+        and mirror an existing OSDR plant study.</div>
+    </div>
+  </section>
+
+  <!-- VALIDATE & SUBMIT -->
+  <section>
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Step 3 — Validate</h3>
+          <p style="color:var(--ink-soft)">Before you upload, self-check against the readiness list:</p>
+          <ul style="color:var(--ink-soft);padding-left:18px;margin-top:8px">
+            <li>Every file opens and has clear headers/units</li>
+            <li>Flight log links to biology samples</li>
+            <li>Control group fully documented</li>
+            <li>Methods detailed enough to repeat</li>
+            <li>No sensitive or personal data in files</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Step 4 — Submit to OSDR</h3>
+          <p style="color:var(--ink-soft)">Head to NASA's repository and follow its submission path:</p>
+          <ul style="color:var(--ink-soft);padding-left:18px;margin-top:8px">
+            <li>Start at the <a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR portal ↗</a></li>
+            <li>Review its current submission guidance &amp; contact the data-curation team</li>
+            <li>Provide your metadata + data package</li>
+            <li>Respond to curator feedback; receive your dataset identifier</li>
+          </ul>
+          <div class="note"><strong>Heads-up:</strong> OSDR's exact submission process and acceptance criteria are set
+            by NASA and can change. Always confirm the current requirements on the official portal before submitting.
+            <span class="todo">verify & link current process</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEMPLATES -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>Reusable templates <span class="todo">coming soon</span></h2>
+        <p>We plan to ship downloadable CSV/metadata templates matching this structure so your next flight is plug-and-play.
+          Want to help build them?</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="about.html">Get involved →</a>
+          <a class="btn btn-ghost" href="build-guide.html">Back to the Build Guide</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <h4>MadWest Rocketry</h4>
+          <p style="margin:0;color:var(--ink-faint);max-width:40ch">
+            A one-stop hub for building botanical sounding rockets and contributing open space-biology
+            data to NASA OSDR.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="build-guide.html">Build Guide</a></li>
+            <li><a href="osdr-training.html">OSDR Training</a></li>
+            <li><a href="data-submission.html">Data Submission</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>NASA Open Science</h4>
+          <ul>
+            <li><a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR home ↗</a></li>
+            <li><a href="https://www.nasa.gov/osdr/" target="_blank" rel="noopener">About OSDR ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> MadWest Rocketry. Educational project.</span>
+        <span>Not affiliated with or endorsed by NASA.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+Sample Name,Characteristics[Organism],Characteristics[Genotype],Factor Value[Spaceflight],Protocol REF,Parameter Value[Reference gene],Assay[Target gene],Data[Mean Ct],Data[Reference Ct],Derived[delta Ct],Parameter Value[Technical replicates]
+RV_20,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,27.258,20.825,6.433,4
+RV_21,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,26.105,19.633,6.471,4
+RV_5,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,29.133,19.481,9.652,4
+RV_6,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,27.56,19.685,7.874,4
+RV_20,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,25.151,20.825,4.326,4
+RV_21,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,24.098,19.633,4.465,4
+RV_5,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,25.335,19.481,5.854,4
+RV_6,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,24.278,19.685,4.593,4
+RV_20,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,24.327,20.825,3.502,4
+RV_21,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,23.133,19.633,3.5,4
+RV_5,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,27.305,19.481,7.824,4
+RV_6,Arabidopsis thaliana,Col-0,Ground,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,23.349,19.685,3.663,4
+RV_22,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,28.325,19.041,9.284,4
+RV_23,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,29.567,19.931,9.636,4
+RV_24,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,23.546,19.105,4.441,4
+RV_25,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,27.021,17.707,9.315,4
+RV_22,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,25.241,19.041,6.2,4
+RV_23,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,27.759,19.931,7.828,4
+RV_24,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,22.81,19.105,3.705,4
+RV_25,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,23.429,17.707,5.722,4
+RV_22,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,24.019,19.041,4.977,4
+RV_23,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,25.339,19.931,5.408,4
+RV_24,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,23.218,19.105,4.114,4
+RV_25,Arabidopsis thaliana,Col-0,Launch site,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,22.398,17.707,4.692,4
+RV_13,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,29.785,24.047,5.738,4
+RV_15,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,29.758,23.692,6.066,4
+RV_17,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,29.595,22.38,7.215,4
+RV_18,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,CBP60g,26.484,17.773,8.711,4
+RV_13,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,32.9,24.047,8.853,4
+RV_15,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,30.586,23.692,6.894,4
+RV_17,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,26.056,22.38,3.676,3
+RV_18,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,MPK3,23.866,17.773,6.093,3
+RV_13,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,32.724,24.047,8.677,4
+RV_15,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,28.232,23.692,4.54,4
+RV_17,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,26.425,22.38,4.045,4
+RV_18,Arabidopsis thaliana,Col-0,Flight,RNA extraction; reverse transcription; qPCR (SYBR),UBQ10,TCH3,22.293,17.773,4.52,4

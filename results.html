@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results — Flight, Gene Expression &amp; Growth | MadWest Rocketry</title>
+  <meta name="description" content="MadWest results: plants flown on a sounding rocket, then measured two ways — qPCR gene expression (Reggies' Veggies) and image-analysed seedling growth (TREES), packaged for NASA OSDR." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="logo">🌱</span>
+        <span>MadWest Rocketry<small>botany meets the upper atmosphere</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="build-guide.html">Build Guide</a></li>
+        <li><a href="osdr-training.html">OSDR Training</a></li>
+        <li><a href="data-submission.html">Data Submission</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="lead-page-head">
+    <div class="wrap">
+      <span class="eyebrow">Results</span>
+      <h1>We flew plants on a rocket — then measured what changed</h1>
+      <p>A real MadWest dataset. It starts with the stimulus — a payload carried aloft on a sounding
+        rocket — and follows it into two readouts of what the flight did: <strong>gene expression</strong>
+        (the Reggies' Veggies qPCR arm, below) and <strong>seedling growth</strong> (the TREES timelapse,
+        by image analysis). Everything is packaged for NASA OSDR.</p>
+    </div>
+  </section>
+
+  <!-- THREE LAUNCHES -->
+  <section style="padding-top:14px">
+    <div class="wrap">
+      <h2 class="section-title">Three launches, one program</h2>
+      <p class="section-sub">The results below come from a program of <strong>three</strong> sounding-rocket
+        launches (2018, Cesaroni K1620 motor). "Reggies' Veggies" and "TREES" are two of them — TREES is a
+        launch <em>codename</em>, not a species.</p>
+      <div class="grid grid-3">
+        <div class="card"><span class="ico">🌱</span><h3>Launch 1 · <em>Arabidopsis</em> test</h3><p>Flown seedlings showed <strong>earlier flowering</strong>, and co-flown <strong>ectomycorrhizal spores stayed viable</strong> after the flight.</p></div>
+        <div class="card"><span class="ico">🧬</span><h3>Launch 2 · <em>Arabidopsis</em> (qPCR)</h3><p>The repeat that produced the <strong>Reggies' Veggies</strong> gene-expression samples analysed just below.</p></div>
+        <div class="card"><span class="ico">🌳</span><h3>Launch 3 · TREES</h3><p><em>Populus tremula</em> (aspen) × ectomycorrhiza — the <strong>survival timelapse</strong> further down.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGGIES VEGGIES / MOLECULAR ARM (flight stimulus, established first) -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <span class="eyebrow">Launch 2 · gene-expression arm</span>
+      <h2 class="section-title">The molecular arm — Reggies' Veggies</h2>
+      <p class="section-sub">It begins with a flight. In the <strong>Reggies' Veggies</strong> experiment (launch 2),
+        <em>Arabidopsis</em> was flown on a sounding rocket alongside launch-site and lab controls, then
+        assayed by qPCR for stress-response genes — asking <em>what the flight changed inside the plants</em>.
+        Its companion, the <a href="#trees">TREES survival timelapse</a> further down (launch 3), asks whether a
+        fungal partner could help a tree <em>survive</em> the flight. Together they pair a gene-expression readout
+        with a growth phenotype — exactly the kind of multi-measurement story OSDR is built to hold.</p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:12px">
+          <img src="assets/reggies/launch.jpg" alt="The rocket on the launch rail with the student team" style="border-radius:9px" />
+          <p style="margin:10px 4px 0;color:var(--ink-faint);font-size:.9rem">Launch day — the payload heads up on a K1620 motor.</p>
+        </div>
+        <div class="card" style="padding:12px">
+          <img src="assets/reggies/lab_plates.jpg" alt="Pipetting seedling samples on agar plates in the lab" style="border-radius:9px" />
+          <p style="margin:10px 4px 0;color:var(--ink-faint);font-size:.9rem">Back in the lab — preparing samples for RNA extraction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLIGHT + QPCR -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div>
+          <h3 style="margin-top:0">Flight profile</h3>
+          <p style="color:var(--ink-soft)">The payload flew on a <strong>K1620</strong> motor, with onboard
+            altimeters logging the flight. The motor's thrust curve and the raw altimeter exports are included in
+            the data deposit as the environmental context for the biology.</p>
+          <div class="card" style="padding:12px;background:#fff">
+            <img src="assets/reggies/k1620_thrust_curve.png" alt="K1620 motor thrust curve" style="border-radius:6px" />
+          </div>
+        </div>
+        <div>
+          <h3 style="margin-top:0">Genes assayed (qPCR)</h3>
+          <p style="color:var(--ink-soft)">Expression of plant stress-response genes was measured by qPCR,
+            normalized to a housekeeping reference. Amplification plots and raw runs are in the deposit.</p>
+          <div class="table-wrap" style="margin-bottom:14px">
+            <table>
+              <thead><tr><th>Gene</th><th>Role in the plant</th></tr></thead>
+              <tbody>
+                <tr><td><strong>UBQ10</strong></td><td>Reference / housekeeping (normalizer)</td></tr>
+                <tr><td><strong>MPK3</strong></td><td>Stress-signaling MAP kinase</td></tr>
+                <tr><td><strong>TCH3</strong></td><td>Touch / mechanostimulus-induced</td></tr>
+                <tr><td><strong>CBP / CBP60g</strong></td><td>Calmodulin-binding; defense signaling</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card" style="padding:12px;background:#fff">
+            <img src="assets/reggies/qpcr_amplification.jpg" alt="qPCR amplification plot, plate 1" style="border-radius:6px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QPCR RESULTS -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h3>What the genes did — ΔΔCt fold-change</h3>
+      <p class="section-sub">Per-well Ct values from the qPCR exports were normalized to the <strong>UBQ10</strong>
+        reference gene and expressed as fold-change relative to the <strong>lab ground control</strong> (the
+        standard ΔΔCt method). Four biological replicates per group.</p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:14px">
+          <img src="assets/charts/qpcr_fold_change.png" alt="qPCR log2 fold-change of stress genes by treatment" style="border-radius:10px" />
+        </div>
+        <div>
+          <div class="table-wrap" style="margin-bottom:14px">
+            <table>
+              <thead><tr><th>Gene</th><th>Launch site</th><th>Flight</th></tr></thead>
+              <tbody>
+                <tr><td><strong>MPK3</strong></td><td>0.48×</td><td>0.34× ↓</td></tr>
+                <tr><td><strong>TCH3</strong></td><td>0.89×</td><td>0.56× ↓</td></tr>
+                <tr><td><strong>CBP60g</strong></td><td>0.68×</td><td>1.60× ↑</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="color:var(--ink-soft)">Flown plants trended toward <strong>lower</strong> MPK3 and TCH3 (stress-
+            and touch-signaling) but <strong>higher</strong> CBP60g (defense signaling) versus the lab control — a
+            hint that flight shifts which stress pathways are engaged rather than simply turning "stress" up or down.</p>
+        </div>
+      </div>
+      <div class="note warn" style="margin-top:16px"><strong>Read as a trend, not a result.</strong> With n = 4 and
+        wide biological spread, the error bars cross "no change" for every gene — none of these would survive a
+        significance test as-is. They're a genuine, reproducible ΔΔCt computation on real data, valuable as a
+        method demonstration and a hypothesis to test with more replicates. (One grouping caveat: sample IDs 22/23
+        are labeled differently between the plate design and the tube log — see <code>DEVLOG.md</code>.)</div>
+    </div>
+  </section>
+
+  <!-- DESIGN (growth arm — TREES / Populus × ECM) -->
+  <section id="trees" style="padding-top:18px">
+    <div class="wrap">
+      <span class="eyebrow">Launch 3 · the survival experiment</span>
+      <h2 class="section-title">TREES — can a fungal partner help a tree survive flight?</h2>
+      <p class="section-sub"><strong>TREES</strong> is the third launch's codename. Its host was the aspen
+        <em>Populus tremula</em>, and the "microbe" was an <strong>ectomycorrhizal (ECM) fungus</strong> — a root
+        symbiont. The hypothesis: the tree–fungus symbiosis would help the seedlings <em>survive</em> the rigors of
+        flight. Seedlings grew on gridded agar plates and were imaged as a timelapse under a 2×2 design crossing
+        <strong>ECM inoculation</strong> with <strong>rocket flight</strong> — 13 plants, ~2,600 frames, up to ~12 days.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th></th><th>+ ECM (mycorrhizal)</th><th>− ECM</th></tr></thead>
+          <tbody>
+            <tr><th>Flight (rocket)</th><td><strong>MR</strong> · +ECM · Flight (4 plants)</td><td><strong>R</strong> · −ECM · Flight (2 plants)</td></tr>
+            <tr><th>Ground control</th><td><strong>M</strong> · +ECM · Ground (5 plants)</td><td><strong>X</strong> · −ECM · Ground (2 plants)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">The ECM fungal species isn't recorded in the surviving lab files, so it's noted as
+        unknown in the data package. <span class="todo">add species if known</span></div>
+    </div>
+  </section>
+
+  <!-- COMPARISON VIDEO -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">All four treatments, side by side</h2>
+      <p class="section-sub">Each plant plays through its own timeline so you can compare how the groups developed.
+        Watch the <strong>+ECM (mycorrhizal)</strong> plates especially — several green up, then brown and collapse.
+        The day counter in each tile is elapsed time for that plant.</p>
+      <div class="card" style="padding:14px">
+        <video controls autoplay muted loop playsinline poster="assets/thumbs/comparison_poster.jpg"
+               style="width:100%;border-radius:10px;display:block">
+          <source src="assets/timelapse/comparison_2x2.mp4" type="video/mp4" />
+          Your browser doesn't support embedded video — <a href="assets/timelapse/comparison_2x2.mp4">download the clip</a>.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEADLINE FINDING -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">What the image analysis found — the symbiosis didn't rescue them</h2>
+      <p class="section-sub">Tracking green-canopy area frame by frame tells a story a single snapshot misses: the
+        <strong>mycorrhizal (+ECM) seedlings peaked, then declined</strong> — ending at only ~71–73% of their peak
+        canopy, with several collapsing far further (one flown +ECM plant fell to <strong>22%</strong> of its peak).
+        The non-mycorrhizal plants held near their peak (94–96%). Contrary to the hypothesis, the fungal partner did
+        <em>not</em> help the trees survive — the +ECM groups slowly <strong>died back</strong> across the timelapse.</p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:14px">
+          <img src="assets/charts/final_canopy.png" alt="Start, peak and end canopy per treatment showing mycorrhizal die-back" style="border-radius:10px" />
+        </div>
+        <div>
+          <div class="card">
+            <h3>Read with care — the windows differ</h3>
+            <p style="color:var(--ink-soft)">Classroom-scale (2–5 plants per group). Crucially, the <strong>+ECM
+              groups were imaged ~9 days but the −ECM groups only ~6</strong> — so the −ECM plants may simply not
+              have been watched long enough to meet the same fate. The mycorrhizal die-back is <em>real and visible
+              in the footage</em>, but this is a strong trend, not a controlled proof. The other contribution is the
+              <strong>method</strong>: turning plate photos into quantitative, OSDR-ready growth trajectories.</p>
+          </div>
+          <div class="note">Orange labels show end canopy as a percentage of each group's peak — the shortfall is
+            the die-back.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GROWTH CURVES -->
+  <section>
+    <div class="wrap">
+      <div class="grid grid-2">
+        <div class="card" style="padding:14px">
+          <img src="assets/charts/relative_growth.png" alt="Relative canopy growth curves by treatment" style="border-radius:10px" />
+          <p style="color:var(--ink-faint);font-size:.88rem;margin:10px 4px 0">Each plant normalized to its own
+            starting canopy. Thick line = treatment mean; faint lines = individual plants; band = min–max spread.</p>
+        </div>
+        <div class="card" style="padding:14px">
+          <img src="assets/charts/growth_curves.png" alt="Absolute canopy growth curves by treatment" style="border-radius:10px" />
+          <p style="color:var(--ink-faint);font-size:.88rem;margin:10px 4px 0">Absolute green-canopy area (kilo-pixels
+            at a fixed analysis width). Same plotting convention as the relative chart.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE/AFTER -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Start · mid · end, per treatment</h2>
+      <p class="section-sub">Three frames pulled from each representative plant's timelapse.</p>
+      <div class="card" style="padding:14px">
+        <img src="assets/charts/before_after_grid.jpg" alt="Start, mid and end frames for each treatment" style="border-radius:10px" />
+      </div>
+    </div>
+  </section>
+
+  <!-- INDIVIDUAL VIDEOS -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Individual timelapses</h2>
+      <p class="section-sub">One representative plant per treatment, full resolution.</p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:12px">
+          <video controls muted loop playsinline style="width:100%;border-radius:9px;display:block">
+            <source src="assets/timelapse/MR_plusMicrobe_flight.mp4" type="video/mp4" /></video>
+          <p style="margin:10px 4px 0"><strong>+ECM · Flight</strong> <span style="color:var(--ink-faint)">— plant mr1-1</span></p>
+        </div>
+        <div class="card" style="padding:12px">
+          <video controls muted loop playsinline style="width:100%;border-radius:9px;display:block">
+            <source src="assets/timelapse/R_minusMicrobe_flight.mp4" type="video/mp4" /></video>
+          <p style="margin:10px 4px 0"><strong>−ECM · Flight</strong> <span style="color:var(--ink-faint)">— plant R3-3</span></p>
+        </div>
+        <div class="card" style="padding:12px">
+          <video controls muted loop playsinline style="width:100%;border-radius:9px;display:block">
+            <source src="assets/timelapse/M_plusMicrobe_control.mp4" type="video/mp4" /></video>
+          <p style="margin:10px 4px 0"><strong>+ECM · Ground</strong> <span style="color:var(--ink-faint)">— plant m2-3</span></p>
+        </div>
+        <div class="card" style="padding:12px">
+          <video controls muted loop playsinline style="width:100%;border-radius:9px;display:block">
+            <source src="assets/timelapse/X_minusMicrobe_control.mp4" type="video/mp4" /></video>
+          <p style="margin:10px 4px 0"><strong>−ECM · Ground</strong> <span style="color:var(--ink-faint)">— plant X4-1</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">How the analysis works</h2>
+      <div class="grid grid-3">
+        <div class="card"><span class="ico">🟢</span><h3>1 · Segment</h3><p>Each frame is reduced to its green canopy using the Excess-Green vegetation index, with near-white backlight glare removed. Roots and the frosted cover are excluded.</p></div>
+        <div class="card"><span class="ico">📈</span><h3>2 · Quantify</h3><p>Canopy area (in pixels at a fixed width) is logged per frame with its timestamp, then smoothed and normalized per plant to control for plate-to-plate scale.</p></div>
+        <div class="card"><span class="ico">🧮</span><h3>3 · Compare</h3><p>Plants are averaged within each treatment on a common time grid, producing the growth curves and the start → peak → end comparison that reveals the die-back.</p></div>
+      </div>
+      <div class="note" style="margin-top:18px">The full pipeline lives in <code>analysis/</code>
+        (<code>segment_lib.py</code>, <code>analyze.py</code>, <code>make_timelapse.py</code>) and writes a tidy
+        <code>growth_data.csv</code> — one row per frame, ready to reshape for an OSDR submission.</div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>This is what a flight contributes.</h2>
+        <p>A clean canopy-growth dataset like this — with methods and metadata — is exactly what the OSDR
+          workflow is built to package and share.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="data-submission.html">See the submission workflow →</a>
+          <a class="btn btn-ghost" href="osdr-training.html">OSDR Training</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <h4>MadWest Rocketry</h4>
+          <p style="margin:0;color:var(--ink-faint);max-width:40ch">
+            A one-stop hub for building botanical sounding rockets and contributing open space-biology
+            data to NASA OSDR.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="build-guide.html">Build Guide</a></li>
+            <li><a href="osdr-training.html">OSDR Training</a></li>
+            <li><a href="data-submission.html">Data Submission</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>NASA Open Science</h4>
+          <ul>
+            <li><a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR home ↗</a></li>
+            <li><a href="https://www.nasa.gov/osdr/" target="_blank" rel="noopener">About OSDR ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> MadWest Rocketry. Educational project.</span>
+        <span>Not affiliated with or endorsed by NASA.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
