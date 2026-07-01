@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lost in space (404) | MadWest Rocketry</title>
+  <!-- Styles are inlined so this page renders correctly no matter how deep the
+       missing URL was (a linked stylesheet would resolve relative to the bad path). -->
+  <style>
+    :root { --leaf:#5ee0a0; --sky:#5aa9ff; --ink:#e8edf7; --soft:#aab6cf; }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(1100px 600px at 80% -10%, rgba(54,201,127,.12), transparent 60%),
+        radial-gradient(900px 500px at 10% 0%, rgba(90,169,255,.12), transparent 55%),
+        #0a0e1a;
+      display: grid; place-items: center; text-align: center; padding: 24px;
+    }
+    .rocket { font-size: 64px; margin-bottom: 8px; }
+    h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 0 0 10px; letter-spacing: -.5px; }
+    .grad { background: linear-gradient(120deg, var(--leaf), var(--sky));
+      -webkit-background-clip: text; background-clip: text; color: transparent; }
+    p { color: var(--soft); max-width: 46ch; margin: 0 auto 24px; line-height: 1.6; }
+    a.btn {
+      display: inline-block; padding: 12px 22px; border-radius: 11px; font-weight: 600;
+      text-decoration: none; color: #04140c;
+      background: linear-gradient(120deg, #36c97f, #5ee0a0);
+      box-shadow: 0 12px 30px -12px rgba(54,201,127,.7);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="rocket">🚀</div>
+    <h1>404 — <span class="grad">off trajectory</span></h1>
+    <p>This page drifted out of orbit. Let's get you back to the launch pad.</p>
+    <!-- Root-relative home link so it works from any missing sub-path on the project site. -->
+    <a class="btn" href="/madwest-astrobotany/">↩ Back to MadWest Rocketry</a>
+  </div>
+</body>
+</html>
