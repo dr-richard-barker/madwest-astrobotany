@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Ariadne — Slime Mould in the Labyrinth | MadWest Rocketry</title>
+  <meta name="description" content="MadWest 2019 mission: Physarum polycephalum slime mould flew on a sounding rocket to study hypergravity-induced behavioural changes, then solved 3D-printed mazes in post-flight experiments." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html">
+        <span class="logo">🌱</span>
+        <span>MadWest Rocketry<small>botany meets the upper atmosphere</small></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="ariadne.html" aria-current="page">Ariadne</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="build-guide.html">Build Guide</a></li>
+        <li><a href="osdr-training.html">OSDR Training</a></li>
+        <li><a href="data-submission.html">Data Submission</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="lead-page-head">
+    <div class="wrap">
+      <span class="eyebrow">Mission 2019 · Launch 4</span>
+      <h1>Project Ariadne — slime mould in the labyrinth</h1>
+      <p>
+        In 2019 the MadWest team flew <em>Physarum polycephalum</em> — a single-celled organism famous for
+        finding shortest paths through mazes — on a sounding rocket to ask whether the stress of launch
+        changes how it thinks. Named for the Greek myth of the labyrinth, Project Ariadne combined a
+        rocket flight with a post-flight maze-solving experiment, probing <strong>hypergravity-induced
+        behavioural changes</strong> in a living biocomputer.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTEXT / LINEAGE -->
+  <section style="padding-top:18px">
+    <div class="wrap">
+      <h2 class="section-title">The fourth mission — building on what came before</h2>
+      <p class="section-sub">
+        Each MadWest launch sharpened the team's hypothesis. Project Ariadne was the fourth mission in the
+        series, and it asked a new question: what happens to <em>cognition</em> under hypergravity?
+      </p>
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="ico">🌱</span>
+          <h3>Launches 1–2 · <em>Arabidopsis</em></h3>
+          <p>Early-flowering under flight stress (Launch 1) and a qPCR gene-expression panel showing a
+            defence-signalling shift (Reggies' Veggies, Launch 2).</p>
+        </div>
+        <div class="card">
+          <span class="ico">🌳</span>
+          <h3>Launch 3 · TREES</h3>
+          <p><em>Populus tremula</em> × ectomycorrhiza — the symbiotic fungus <strong>turned parasitic</strong>
+            rather than protective, mirroring a self-preservation response to hypergravity stress.</p>
+        </div>
+        <div class="card">
+          <span class="ico">🧠</span>
+          <h3>Launch 4 · Ariadne</h3>
+          <p><em>Physarum polycephalum</em> — a protist that solves mazes using network-flow logic. Does
+            the stress of rocket flight change its problem-solving behaviour?</p>
+        </div>
+      </div>
+      <div class="note">
+        The two preceding experiments showed the same theme: hypergravity triggers a <strong>preservation
+        instinct</strong> — <em>Arabidopsis</em> flowered early, the ECM fungus turned parasitic.
+        Project Ariadne asked whether that instinct shows up as <strong>sporulation</strong> (the slime
+        mould's own preservation mode) in the flown organism.
+      </div>
+    </div>
+  </section>
+
+  <!-- ORGANISM -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">The organism — <em>Physarum polycephalum</em></h2>
+      <div class="grid grid-2">
+        <div>
+          <p>
+            <em>Physarum polycephalum</em> is a <strong>plasmodial slime mould</strong> — technically a
+            single-celled protist, not a fungus or plant, despite its colloquial name. In its active
+            (plasmodium) phase it forms a yellow, vein-like network that explores its environment by
+            extending and retracting tubes, optimising resource flow like a living road-network algorithm.
+          </p>
+          <p>
+            It moves through three behavioural phases:
+          </p>
+          <ul style="padding-left:1.3em;color:var(--ink-soft)">
+            <li><strong>Explorative</strong> — spreading rapidly outward, sampling the environment</li>
+            <li><strong>Utilizing</strong> — retracting side-branches, reinforcing high-flow routes to food</li>
+            <li><strong>Sporulation</strong> — drying into brown spore bodies when stressed or starved</li>
+          </ul>
+          <p>
+            The sporulation phase is a <strong>preservation strategy</strong>: the organism trades growth
+            for survival. This made it the ideal organism to test the hypergravity-preservation hypothesis.
+          </p>
+          <p>
+            <em>Physarum</em> is also a celebrated model for <strong>biocomputing</strong>: in 2000 it was
+            shown to find the shortest path through a maze; later work modelled the Tokyo rail network
+            using the organism's network-optimisation logic. Project Ariadne exploited this property
+            with 3D-printed mazes of five different types.
+          </p>
+        </div>
+        <div class="card" style="padding:14px;display:flex;flex-direction:column;gap:12px">
+          <img src="assets/ariadne/flashlapse_rig.jpg"
+               alt="Timelapse rig with four illuminated chambers showing Physarum polycephalum networks growing on plates and in a green 3D-printed maze"
+               style="border-radius:9px;width:100%" />
+          <p style="margin:0;color:var(--ink-faint);font-size:.88rem">
+            The flashlapse imaging rig showing four sample chambers lit from behind: top-left, a square
+            plate with slime mould spreading in a branching network; top-right, a round dish with heavy
+            sporulation (orange/brown patches); bottom-left, a green 3D-printed maze with growth visible;
+            bottom-right, a square plate with a minimal early network. Scanner-timelapse imaging of the
+            blue spiral mazes ran in parallel.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIMENTAL DESIGN -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Experimental design — three groups, five mazes</h2>
+      <p class="section-sub">
+        The flight payload contained <em>Physarum</em> cultures in sealed petri dishes. Post-recovery,
+        cultures were split into three groups and transferred into 3D-printed maze plates to measure
+        whether flight-stressed organisms solve mazes differently from ground controls.
+      </p>
+
+      <!-- Three groups -->
+      <div class="grid grid-3" style="margin-bottom:28px">
+        <div class="card">
+          <span class="ico">🟢</span>
+          <h3>Baseline (ground control)</h3>
+          <p>Cultures that never flew — maintained on the ground throughout the experiment.
+            These set the reference behaviour: how does an unstressed <em>Physarum</em> solve a maze?</p>
+        </div>
+        <div class="card">
+          <span class="ico">🚀</span>
+          <h3>Stress (flown)</h3>
+          <p>Cultures that flew inside the rocket payload. Exposed to the full launch profile: high-G
+            boost, ballistic coast, and recovery loads. <strong>Hypothesis:</strong> these will sporulate
+            — the preservation response to extreme mechanical stress.</p>
+        </div>
+        <div class="card">
+          <span class="ico">🔀</span>
+          <h3>Hybrid (post-flight mix)</h3>
+          <p>Equal portions of baseline and stress cultures combined <em>after</em> recovery. Mixing
+            allows the ground and flown plasmodia to interact. <strong>Hypothesis:</strong> the hybrid
+            will reinforce the plasmodium network first, then sporulate — a delayed response.</p>
+        </div>
+      </div>
+
+      <!-- Maze table -->
+      <h3>Five maze designs</h3>
+      <p style="color:var(--ink-soft)">The team designed and 3D-printed six versions of five maze types,
+        each probing a different aspect of slime-mould decision-making:</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Maze type</th><th>What it tests</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Maze 1</strong></td>
+              <td>Basic point-to-point navigation — does the organism find food at the exit?</td>
+            </tr>
+            <tr>
+              <td><strong>Maze 2</strong></td>
+              <td>Multi-path routing — can it select the more efficient of two routes to a food source?</td>
+            </tr>
+            <tr>
+              <td><strong>Maze 3</strong></td>
+              <td><strong>No-solution maze</strong> — tests response when there is no path to food. Does a stressed organism behave differently when it cannot solve the problem?</td>
+            </tr>
+            <tr>
+              <td><strong>Maze 4</strong></td>
+              <td><strong>Long-simple vs. short-complex route</strong> — a longer, straighter path competes with a shorter, more tortuous one. Does hypergravity stress change route preference?</td>
+            </tr>
+            <tr>
+              <td><strong>Maze 5</strong></td>
+              <td>Network-expansion challenge — multiple distributed food sources; tests whether the organism forms an efficient spanning network or over-extends.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="note">
+        All mazes were 3D-printed in six design versions (STL files preserved in the project archive).
+        Mazes were poured with nutrient or nutrientless phytagel medium in a biological safety cabinet
+        using aseptic technique, then seeded with a 1 cm² plasmodium inoculum placed at the
+        start position with oat grains as food markers.
+      </div>
+    </div>
+  </section>
+
+  <!-- MAZE IMAGES -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2 class="section-title">The mazes — scanner timelapse</h2>
+      <p class="section-sub">
+        Flatbed scanners imaged the blue spiral maze plates through the bottom of the phytagel at
+        30–60 minute intervals. Phytagel (rather than agar) was required for bottom-imaging because
+        it sets clear. Plates were sealed with Parafilm and stored in a dark cabinet between scans.
+      </p>
+      <div class="grid grid-2">
+        <div class="card" style="padding:12px">
+          <img src="assets/ariadne/scanner_mazes_day1.jpg"
+               alt="Top-down scanner view of three blue spiral maze plates on Day 1 (June 13 2019); top-right maze labelled C3-F shows slime mould beginning to explore the maze channels"
+               style="border-radius:9px;width:100%" />
+          <p style="margin:10px 4px 0;color:var(--ink-faint);font-size:.88rem">
+            Day 1 (June 13 2019) — three blue spiral maze plates imaged from below on a flatbed scanner.
+            The top-right plate is labelled <strong>C3-F</strong> (Control 3, Flight group); the white
+            material at the maze entrance is the <em>Physarum</em> plasmodium beginning to explore the
+            channels. The other two plates show empty mazes seeded with oat grains (cream-coloured
+            objects) at the exit positions. Top-left: a round dish from a parallel propagation culture.
+          </p>
+        </div>
+        <div class="card" style="padding:12px">
+          <img src="assets/ariadne/scanner_mazes_day2.jpg"
+               alt="Same three blue spiral maze plates on Day 2 (June 14 2019) showing similar configuration; slime mould network in the C3-F plate has begun extending further into the spiral channels"
+               style="border-radius:9px;width:100%" />
+          <p style="margin:10px 4px 0;color:var(--ink-faint);font-size:.88rem">
+            Day 2 (June 14 2019) — the same three plates approximately 24 hours later. The
+            <em>Physarum</em> network in the Flight group maze has extended further into the spiral
+            channels, consistent with the explorative phase. Detailed time-series analysis of growth
+            rate, network extent, and maze completion is in the project data archive.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HYPOTHESIS + CONTEXT -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Hypothesis and expected outcomes</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 style="margin-top:0">Stress group (flown)</h3>
+          <p style="color:var(--ink-soft)">
+            Flight exposes the plasmodium to high-G forces during boost and recovery. If the
+            hypergravity-preservation theme seen in the earlier missions holds, the flown culture will
+            shift toward <strong>sporulation</strong> — converting the active plasmodium into dormant
+            spore bodies rather than solving the maze. Sporulation rate and network coverage in the
+            mazes serve as the primary readouts.
+          </p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Hybrid group (mixed)</h3>
+          <p style="color:var(--ink-soft)">
+            When ground and flown plasmodia are mixed, the intact (ground) cells may signal to the
+            stressed (flown) cells. The hypothesis is that the hybrid will first <strong>reinforce the
+            plasmodium</strong> network — the healthy ground fraction stabilising the system — before
+            eventually sporulating. If correct, the hybrid should out-perform the stress group in maze
+            navigation time while eventually reaching the same endpoint.
+          </p>
+        </div>
+      </div>
+      <div class="note warn" style="margin-top:18px">
+        <strong>Data review in progress.</strong> Quantitative maze-completion and sporulation-rate
+        analysis from the timelapse images is being prepared for this page and the accompanying
+        manuscript. The images, protocols, and lab notes are preserved in the project archive and are
+        available for review by the team.
+      </div>
+    </div>
+  </section>
+
+  <!-- METHODS SUMMARY -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Methods summary</h2>
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="ico">🧫</span>
+          <h3>Media preparation</h3>
+          <p>
+            <strong>Nutrient medium:</strong> 3 g/L sucrose + 5 g/L phytagel in deionised water,
+            autoclaved 30 min. Poured ~25 ml into round dishes, ~35–45 ml into square dishes and mazes.
+            <br><br>
+            <strong>Nutrientless medium:</strong> 10 g/L phytagel (no sucrose); oat grains are the
+            sole food source — placed at maze entrance (1 oat) and exit (2–3 oats).
+          </p>
+        </div>
+        <div class="card">
+          <span class="ico">🔬</span>
+          <h3>Aseptic technique</h3>
+          <p>
+            All media preparation and culture transfers were performed in a biological safety cabinet
+            (BSC). Mazes were poured with nutrient medium under aseptic conditions (~35 ml per maze),
+            allowed to air-dry 30–60 min, and stored in the fridge overnight before use.
+            <br><br>
+            Inoculation: 1 cm² plasmodium piece (≥ 75% vein coverage) placed on the start oat.
+          </p>
+        </div>
+        <div class="card">
+          <span class="ico">📷</span>
+          <h3>Scanner timelapse imaging</h3>
+          <p>
+            Plates were imaged from below on a flatbed scanner at 30–60 min intervals. Phytagel
+            (vs. agar) was required because it sets clear, enabling bottom-imaging. Images were
+            stored in dated folders (Pictures/Ariadne/[date]). A parallel flashlapse system captured
+            overhead time-series of petri dish cultures at higher temporal resolution.
+          </p>
+        </div>
+      </div>
+      <p style="margin-top:14px;color:var(--ink-soft)">
+        Full protocols (nutrient media prep, nutrientless media prep, maze pouring, slime mould
+        propagation, maze propagation, and scanning imaging guide) are preserved as lab documents
+        authored by the 2019 student team (Brady Nilsson, Sophia Zappia, Hyun-seok Chang,
+        Lizzy Larson) in the project archive and are being formatted for the methods appendix.
+        See <a href="asgsr_submission/ariadne_methods.md"><code>asgsr_submission/ariadne_methods.md</code></a>
+        for the working draft.
+      </p>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">The team</h2>
+      <div class="grid grid-2">
+        <div class="card">
+          <h3 style="margin-top:0">2019 Student Team</h3>
+          <ul style="padding-left:1.3em;color:var(--ink-soft)">
+            <li><strong>Sophia</strong> — Lab Coordinator</li>
+            <li><strong>Lizzy</strong> — Payload Leader</li>
+            <li><strong>Jerry &amp; Ethan</strong> — Vehicle Construction</li>
+            <li><strong>Emma</strong> — Painting &amp; Design Lead</li>
+            <li><strong>Brady</strong> — Maze Engineer</li>
+            <li><strong>Jameson &amp; Mazelie</strong> — Launch Crew</li>
+          </ul>
+          <p style="color:var(--ink-faint);font-size:.88rem;margin-bottom:0">
+            Student surnames to be added with consent confirmation before public release.
+          </p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Advisors &amp; Acknowledgments</h3>
+          <ul style="padding-left:1.3em;color:var(--ink-soft)">
+            <li>Dr. Richard Barker — University of Wisconsin–Madison AstroBotany Laboratory</li>
+            <li>Ms. Marie Trest — University of Wisconsin–Madison Gilroy Lab</li>
+            <li>Hyun-seok Chang — Student lab lead &amp; protocol author</li>
+            <li>Mr. Brent Lillesand &amp; Ms. Christine Hager — MadWest advisors</li>
+            <li>Matilda Carne — Protocol development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIOCOMPUTING SIDEBAR -->
+  <section>
+    <div class="wrap">
+      <div class="cta-band">
+        <h2>A natural biocomputer — solving mazes without a brain</h2>
+        <p>
+          <em>Physarum polycephalum</em> finds the shortest path through a maze using only local
+          chemical gradients and tube-flow feedback — no central nervous system, no neurons.
+          In 2000, Toshiyuki Nakagaki showed it solves mazes as efficiently as engineered algorithms.
+          Later work used the organism to model the Tokyo subway network, revealing that evolution
+          had independently discovered near-optimal transport topologies. Project Ariadne asked
+          whether <strong>rocket-induced hypergravity disrupts this distributed intelligence</strong> —
+          a question at the boundary of space biology and biocomputing.
+        </p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="results.html">See the 2018 mission results →</a>
+          <a class="btn btn-ghost" href="about.html">About the programme</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <h4>MadWest Rocketry</h4>
+          <p style="margin:0;color:var(--ink-faint);max-width:40ch">
+            A one-stop hub for building botanical sounding rockets and contributing open space-biology
+            data to NASA OSDR.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="results.html">Results (2018 missions)</a></li>
+            <li><a href="ariadne.html">Project Ariadne (2019)</a></li>
+            <li><a href="build-guide.html">Build Guide</a></li>
+            <li><a href="osdr-training.html">OSDR Training</a></li>
+            <li><a href="data-submission.html">Data Submission</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>NASA Open Science</h4>
+          <ul>
+            <li><a href="https://osdr.nasa.gov/" target="_blank" rel="noopener">OSDR home ↗</a></li>
+            <li><a href="https://www.nasa.gov/osdr/" target="_blank" rel="noopener">About OSDR ↗</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="foot-legal">
+        Independent educational project. Not affiliated with or endorsed by NASA.
+        Raw imagery and large assets are deposited to Zenodo, not this repository.
+      </p>
+    </div>
+  </footer>
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      document.querySelector('.nav-links').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
