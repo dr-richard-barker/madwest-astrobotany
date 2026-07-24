@@ -6,9 +6,23 @@
   <title>MadWest Rocketry × NASA OSDR — Botanical Sounding Rockets</title>
   <meta name="description" content="Build botanical sounding rockets and turn every flight into open space-biology data for NASA's Open Science Data Repository (OSDR). One stop: build, fly, measure, submit." />
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="cose-assets/cose-theme.css">
+  <link rel="stylesheet" href="cose-assets/cose-chrome.css">
+<link rel="stylesheet" href="cose-assets/cose-map.css">
+<style id="cose-madwest-light">
+/* CoSE light-mode overrides for madwest's hardcoded-dark chrome */
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]) .site-header{background:rgba(255,255,255,.82)}
+  :root:not([data-theme="dark"]) .ss-stage{background:var(--panel-2)}
+  :root:not([data-theme="dark"]) .ss-btn{background:rgba(255,255,255,.72)}
+  :root:not([data-theme="dark"]) .nav-links{background:rgba(255,255,255,.97)}
+}
+html[data-theme="light"] .site-header{background:rgba(255,255,255,.82)}
+html[data-theme="light"] .ss-stage{background:var(--panel-2)}
+html[data-theme="light"] .ss-btn{background:rgba(255,255,255,.72)}
+html[data-theme="light"] .nav-links{background:rgba(255,255,255,.97)}
+</style>
 </head>
-<body data-site-id="madwest-astrobotany" data-cose-themetoggle="off" data-brand-logo="cose-assets/cose-logo.png">
+<body data-site-id="madwest-astrobotany" data-brand-logo="cose-assets/cose-logo.png">
   <!-- HEADER -->
   <header class="site-header">
     <div class="wrap nav">
