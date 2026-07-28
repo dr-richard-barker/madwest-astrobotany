@@ -1,0 +1,6 @@
+filename,species,mycorrhiza,condition,treatment,representative_plant,description
+MR_plusMicrobe_flight.mp4,Populus tremula,+ECM (ectomycorrhizal),Flight,+ECM · Flight,mr1-1,Representative +ECM spaceflight aspen seedling — day-labelled growth timelapse (H.264)
+R_minusMicrobe_flight.mp4,Populus tremula,-ECM (no inoculation),Flight,-ECM · Flight,R3-3,Representative -ECM spaceflight aspen seedling — day-labelled growth timelapse (H.264)
+M_plusMicrobe_control.mp4,Populus tremula,+ECM (ectomycorrhizal),Ground,+ECM · Ground,m2-3,Representative +ECM ground-control aspen seedling — day-labelled growth timelapse (H.264)
+X_minusMicrobe_control.mp4,Populus tremula,-ECM (no inoculation),Ground,-ECM · Ground,X4-1,Representative -ECM ground-control aspen seedling — day-labelled growth timelapse (H.264)
+comparison_2x2.mp4,Populus tremula,all four,Flight + Ground,2x2 comparison,mr1-1 / R3-3 / m2-3 / X4-1,All four treatments synced side-by-side (±ECM × Flight/Ground)
